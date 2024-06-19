@@ -19,15 +19,13 @@ The primary purpose of this script is educational, enabling users to:
 
 
 ```
-python s9.py http://example.com/login --content 33490 --keyword Welcome --email email --pass password
+python s9.py http://example.com/login --content 33490 --keyword Welcome 
 ```
 
 
 - `http://example.com/login`: URL of the vulnerable login page.
 - `--content 33490`: Expected length of the response body during a normal login attempt,  achievable through tools like Burp Suite.
 - `--keyword Welcome`: Optional keyword to filter the response content  If not filtered, the script retrieves the full HTML content of the page, including all visible and hidden elements. This can be overwhelming and may include unnecessary information for the purpose.
-- `--email email`: Name of the email input field in the login form.
-- `--pass password`: Name of the password input field in the login form.
 
 4. **Output**: The script will display discovered information such as the number of columns, database version, schema names, table names, column names, and extracted data based on user input.
 
