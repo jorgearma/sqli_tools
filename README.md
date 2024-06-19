@@ -1,6 +1,9 @@
 ### SQL Injection Tool
 This repository hosts a Python script designed for automating and exploring SQL Injections in web applications. The project's motivation was threefold: to gain a deeper understanding of MySQL technology, to learn task automation using Python, and to delve into the concept of SQL injections.
 
+##important
+To use this SQL injection script, it is necessary to know the content length. Additionally, the login system must be vulnerable to SQL injection attacks, and the database should be MySQL.
+
 #### Purpose
 The primary purpose of this script is educational, enabling users to:
 - Dynamically determine the number of columns in a database table using SQL injection techniques.
