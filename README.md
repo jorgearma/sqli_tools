@@ -2,6 +2,10 @@
 
 This Python script is designed to demonstrate SQL injection vulnerabilities in web applications, aiming to educate users on how these exploits can be utilized and mitigated by developers.
 
+## Description
+
+This script requests an IP address from the user and then sc
+
 #### Purpose
 The primary purpose of this script is educational, enabling users to:
 - Dynamically determine the number of columns in a database table using SQL injection techniques.
