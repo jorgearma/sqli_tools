@@ -18,7 +18,9 @@ The primary purpose of this script is educational, enabling users to:
 2. **Determining Content Length**: Use the `--content` option to specify the expected length of the response during a normal login attempt on the target URL.
 3. **Executing the Script**: Run the script with appropriate arguments from the command line:
 
+```
 python s9.py http://example.com/login --content 33490 --keyword Welcome --email email --pass password
+```
 
 
 - `http://example.com/login`: URL of the vulnerable login page.
